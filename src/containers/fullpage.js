@@ -1,7 +1,8 @@
 import ReactFullpage from '@fullpage/react-fullpage';
 import Hero from '../components/hero';
+import Wip from '../components/wip';
 
-const anchors = ["Introduction", "secondPage", "thirdPage"];
+const anchors = ["Introduction", "Work in Progress", "thirdPage"];
 
 const Fullpage = () => (
   <ReactFullpage
@@ -19,7 +20,7 @@ const Fullpage = () => (
             <Hero/>
           </div>
           <div className="section">
-            <p>Section 2</p>
+            <Wip/>
           </div>
         </ReactFullpage.Wrapper>
       );
