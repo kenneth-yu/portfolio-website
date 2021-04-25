@@ -15,7 +15,6 @@ const Fullpage = () => (
     scrollingSpeed = {1000} /* Options here */
 
     render={({ state, fullpageApi }) => {
-      console.log(process.env)
       return (
         <ReactFullpage.Wrapper>
           <div className="section">
