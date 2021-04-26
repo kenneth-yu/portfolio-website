@@ -12,7 +12,9 @@ function Hero() {
           <Col sm={6}>
             <h1 className="headline-text">Hi, My Name is Kenny.</h1>
             <h1 className="headline-text">I'm a Software Engineer.</h1>
-            <p>I talk to people and figure out what problem they are trying to solve. I then do the beeps and the boops until their problems go away.</p>
+            <p>Based out of New York City, I specialize in building exceptional digital experiences by focusing on user centric products.
+                I am currently a front-end engineer at <a href="www.priceline.com">Priceline</a> determined to help customers experience memorable moments that matter the most.
+            </p>
           </Col>
         </Row>
       </Container>

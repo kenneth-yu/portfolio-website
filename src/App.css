@@ -1,13 +1,16 @@
 .App {
   /* text-align: center; */
 }
+a{
+  color:white;
+}
 body, html{
+  color:white;
   background: #000000;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
 .headline-text{
-  color: white;
   font-size:3.2em;
   background: linear-gradient(271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
   -webkit-background-clip: text;
@@ -22,7 +25,6 @@ body, html{
 }
 
 p{
-  color: white;
   font-size:1.2em;
 }
 #fp-nav ul li a span, 
