@@ -4,9 +4,11 @@ import pcImage1 from '../images/pcImage1.jpg'
 import pcImage2 from '../images/pcImage2.jpg'
 import pcImage3 from '../images/pcImage3.jpg'
 import pcImage4 from '../images/pcImage4.jpg'
+import {isMobile} from 'react-device-detect';
 
 
 function AboutMe() {
+    let carouselWidth = isMobile ? "d-block w-100" : "d-block w-75"
   return (
       <Container>
         <Row className="hero">
@@ -39,18 +41,18 @@ function AboutMe() {
                 </Col>
             </Row>
           </Col>
-          <Col className="d-none d-lg-block">
-          <Carousel>
+          <Col >
+          <Carousel style={{paddingTop: isMobile ? 20 : 0}}>
             <Carousel.Item>
                 <img
-                className="d-block w-75"
+                className={carouselWidth}
                 src={pcImage1}
                 alt="First slide"
                 />
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                className="d-block w-75"
+                className={carouselWidth}
                 src={pcImage2}
                 alt="Second slide"
                 />
