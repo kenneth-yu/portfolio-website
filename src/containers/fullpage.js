@@ -3,10 +3,11 @@ import Hero from '../components/hero';
 import AboutMe from '../components/aboutMe';
 import Experience from '../components/experience';
 import Wip from '../components/wip';
+import Contact from '../components/contact'
 
 
-const anchors = ["introduction", "about-me", "experience", "work-in-progress"];
-const navAnchors = ["Introduction", "About Me", "Experience", "Work in Progress"];
+const anchors = ["introduction", "about-me", "experience", "work-in-progress", "contact-me"];
+const navAnchors = ["Introduction", "About Me", "Experience", "Work in Progress", "Contact Me"];
 
 const Fullpage = () => (
   <ReactFullpage
@@ -30,6 +31,9 @@ const Fullpage = () => (
           </div>
           <div className="section">
             <Wip/>
+          </div>
+          <div className="section">
+            <Contact/>
           </div>
         </ReactFullpage.Wrapper>
       );
