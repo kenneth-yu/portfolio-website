@@ -18,9 +18,19 @@ body, html{
   -webkit-text-fill-color: transparent; 
   -moz-text-fill-color: transparent;
 }
-.hero {
-  /* display: flex; */
-  /* justify-content: center; */
+.subheadline-text{
+  background: linear-gradient(271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+span{
+  font-size:1.5em;
+}
+.centercenter {
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 

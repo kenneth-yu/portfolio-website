@@ -11,7 +11,7 @@ function AboutMe() {
     let carouselWidth = isMobile ? "d-block w-100" : "d-block w-75"
   return (
       <Container>
-        <Row className="hero">
+        <Row className="centercenter">
           <Col sm={6} >
           <h1 className="headline-text">About Me</h1>
             <p> Hi! My name is Kenneth Yu and for as long as I can remember I have always been someone who loved to tinker and modify things. 
