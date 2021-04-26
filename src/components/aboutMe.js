@@ -23,14 +23,14 @@ function AboutMe() {
             </p>
             <p>Here are some of the technologies I am currently using: </p>
             <Row>
-                <Col sm={6}>
+                <Col>
                 <ul>
                     <li>JavaScript (ES6+)</li>
                     <li>Node.js</li>
                     <li>Tealium</li>
                 </ul>
                 </Col>
-                <Col sm={6}>
+                <Col>
                     <ul>
                         <li>React/Redux</li>
                         <li>Express.js</li>
@@ -39,7 +39,7 @@ function AboutMe() {
                 </Col>
             </Row>
           </Col>
-          <Col >
+          <Col className="d-none d-lg-block">
           <Carousel>
             <Carousel.Item>
                 <img
