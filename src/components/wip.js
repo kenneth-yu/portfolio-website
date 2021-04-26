@@ -1,14 +1,14 @@
 import '../App.css';
-import {Container, Row} from 'react-bootstrap';
+import {Container, Row, Col} from 'react-bootstrap';
 
 function Wip() {
   return (
-      <Container className="hero" >
-        <Row>
-            <h1 style={{color: '#ffffff', margin: 'auto'}}>Website is currently a work in progress.</h1>
-        </Row>
-        <Row>
-            <h1 style={{color: '#ffffff', margin: 'auto'}}>Check back for more updates!</h1>
+      <Container>
+        <Row >
+            <Col sm={12} style={{textAlign: "center"}}>
+                <h1 style={{color: '#ffffff'}}>Website is currently a work in progress.</h1>
+                <h1 style={{color: '#ffffff'}}>Check back for more updates!</h1>
+            </Col>
         </Row>
       </Container>
   );
