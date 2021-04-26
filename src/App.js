@@ -1,11 +1,12 @@
 import './App.css';
-import Hero from './components/hero'
-import Fullpage from './containers/fullpage'
+import Fullpage from './containers/fullPage'
+import Mobilepage from './containers/mobilePage'
+import {isMobile} from 'react-device-detect';
 
 function App() {
   return (
     <div>
-      <Fullpage/>
+      {isMobile ? <Mobilepage/> : <Fullpage/>}
     </div>
     
   );
