@@ -19,7 +19,7 @@ const Fullpage = () => (
     render={({ state, fullpageApi }) => {
       return (
         <ReactFullpage.Wrapper>
-          <div className="section">g
+          <div className="section">
             <Hero/>
           </div>
           <div className="section">
