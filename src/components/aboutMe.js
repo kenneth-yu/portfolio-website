@@ -14,7 +14,7 @@ function AboutMe() {
         <Row className="centercenter">
           <Col sm={6} >
           <h1 className="headline-text">About Me</h1>
-            <p> Hi! My name is Kenneth Yu and for as long as I can remember I have always been someone who loved to tinker and modify things. 
+            <p> My name is Kenneth Yu and for as long as I can remember I have always been someone who loved to tinker and modify things. 
                 My love for technology really blossomed when I built my first computer at around age 10. 
                 I still remember how excited I was researching every single part and figuring out what each component did specifically.
                 Moving from building computers and understanding the hardware to software engineering really was a no brainer. 
