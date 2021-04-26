@@ -11,7 +11,7 @@ const Fullpage = () => (
     anchors={anchors}
     navigation
     navigationTooltips={anchors}
-    licenseKey = {process.env.FULL_PAGE_LICENSE_KEY}
+    licenseKey = {process.env.REACT_APP_FP_LICENSE_KEY}
     scrollingSpeed = {1000} /* Options here */
 
     render={({ state, fullpageApi }) => {
