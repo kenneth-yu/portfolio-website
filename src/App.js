@@ -1,6 +1,6 @@
 import './App.css';
-import Fullpage from './containers/fullPage'
-import Mobilepage from './containers/mobilePage'
+import Fullpage from './containers/fullpage'
+import Mobilepage from './containers/mobilepage'
 import {isMobile} from 'react-device-detect';
  
 function App() {

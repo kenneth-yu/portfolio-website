@@ -9,17 +9,16 @@ const navAnchors = ["Introduction", "About Me", "Work in Progress"];
 
 const Fullpage = () => (
   <ReactFullpage
-    //fullpage options
     anchors={anchors}
     navigation
     navigationTooltips={navAnchors}
     licenseKey = {process.env.REACT_APP_FP_LICENSE_KEY}
-    scrollingSpeed = {1000} /* Options here */
+    scrollingSpeed = {1000}
 
     render={({ state, fullpageApi }) => {
       return (
         <ReactFullpage.Wrapper>
-          <div className="section">
+          <div className="section">g
             <Hero/>
           </div>
           <div className="section">
