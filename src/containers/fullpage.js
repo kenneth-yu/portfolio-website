@@ -6,7 +6,7 @@ import Wip from '../components/wip';
 import Contact from '../components/contact'
 
 
-const anchors = ["introduction", "about-me", "experience", "work-in-progress", "contact-me"];
+const anchors = ["", "about-me", "experience", "work-in-progress", "contact-me"];
 const navAnchors = ["Introduction", "About Me", "Experience", "Work in Progress", "Contact Me"];
 
 const Fullpage = () => (
