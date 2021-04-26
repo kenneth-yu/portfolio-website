@@ -11,18 +11,18 @@ function Experience() {
             <Tab.Container id="list-group-tabs-example" defaultActiveKey="#priceline">
             <Row>
                 <Col sm={3} className="centercenter">
-                <ListGroup style={{paddingBottom: isMobile ? 15 : 0}} horizontal={isMobile}>
+                <ListGroup style={{paddingBottom: isMobile ? 15 : 0, textAlign: "center"}} horizontal={isMobile}>
                     <ListGroup.Item action href="#priceline">
-                    Priceline
+                    {"Priceline"}
                     </ListGroup.Item>
                     <ListGroup.Item action href="#mtb">
-                    {"M&T Bank"}
+                    {isMobile ? "M&T" : "M&T Bank"}
                     </ListGroup.Item>
                     <ListGroup.Item action href="#verifyed">
-                    Verifyed, Inc
+                    {isMobile ? "Verifyed" : "Verifyed, Inc"}
                     </ListGroup.Item>
                     <ListGroup.Item action href="#starline">
-                    Starline USA
+                    {isMobile ? "Starline" : "Starline USA"}
                     </ListGroup.Item>
                 </ListGroup>
                 </Col>
