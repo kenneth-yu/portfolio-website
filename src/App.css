@@ -54,6 +54,10 @@ a.list-group-item{
 hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  /* border: 0; */
-  border: 1px solid rgb(32, 32, 32)
+  border: 0;
+  border-top: 1px solid rgb(32, 32, 32)
+}
+.carousel-inner {
+  display:flex;
+  align-items:center;
 }
