@@ -13,7 +13,7 @@ function Mobilepage() {
             <AboutMe/>
           </div>
           <div style={{paddingTop: 60}}>
-            {/* <Experience/> */}
+            <Experience/>
           </div>
           <div style={{paddingTop: 60}}>
             <Wip/>

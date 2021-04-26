@@ -1,5 +1,5 @@
 import '../App.css';
-import {Container, Row, Col, Image, Carousel} from 'react-bootstrap';
+import {Container, Row, Col, Carousel} from 'react-bootstrap';
 import pcImage1 from '../images/pcImage1.jpg'
 import pcImage2 from '../images/pcImage2.jpg'
 import pcImage3 from '../images/pcImage3.jpg'
