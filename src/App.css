@@ -1,63 +1,59 @@
-.App {
-  /* text-align: center; */
-}
 a{
-  color:white;
+	color:white;
 }
 body, html{
-  color:white;
-  background: #000000;
-  font-family: 'Source Sans Pro', sans-serif;
+	color:white;
+	background: #000000;
+	font-family: 'Source Sans Pro', sans-serif;
 }
-
 .headline-text{
-  font-size:3.2em;
-  background: linear-gradient(271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-text-fill-color: transparent;
+	font-size:3.2em;
+	background: linear-gradient(271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-moz-text-fill-color: transparent;
 }
 .subheadline-text{
-  background: linear-gradient(271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-text-fill-color: transparent;
+	background: linear-gradient(271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-moz-text-fill-color: transparent;
 }
 span{
-  font-size:1.5em;
+	font-size:1.5em;
 }
 .centercenter {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-
 p{
-  font-size:1.2em;
+	font-size:1.2em;
 }
-#fp-nav ul li a span, 
-.fp-slidesNav ul li a span {
-    background: white !important;
+#fp-nav ul li a span,.fp-slidesNav ul li a span {
+	background: white !important;
 }
-.active a.list-group-item { 
-  background-color: black; 
+.active a.list-group-item {
+	background-color: black;
 }
 .list-group-item.active {
-  border-color:white;
+	border-color:white;
 }
 a.list-group-item{
-  background-color: rgb(32, 32, 32) !important;
-  color:white;
+	background-color: rgb(32, 32, 32) !important;
+	color:white;
 }
 hr {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  border: 0;
-  border-top: 1px solid rgb(32, 32, 32)
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	border: 0;
+	border-top: 1px solid rgb(32, 32, 32)
 }
 .carousel-inner {
-  display:flex;
-  align-items:center;
+	display:flex;
+	align-items:center;
 }
