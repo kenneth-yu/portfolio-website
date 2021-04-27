@@ -7,8 +7,8 @@ import Contact from '../components/contact'
 import Wip from '../components/wip';
 
 
-const anchors = ["", "about-me", "experience", "work-in-progress", "contact-me"];
-const navAnchors = ["Introduction", "About Me", "Experience", "Work in Progress", "Contact Me"];
+const anchors = ["", "about-me", "experience", "projects", "contact-me"];
+const navAnchors = ["Introduction", "About Me", "Experience", "Projects", "Contact Me"];
 
 const Fullpage = () => (
   <ReactFullpage
