@@ -21,7 +21,7 @@
         {
             "image": "https://lh3.googleusercontent.com/pw/ACtC-3cdqDpW4m9bRhl8PAhJ7H1MewN9JF7mHMo2waFKMd4G6p6qFUU3dL2mLNOpS_7Yy_A_R2xN_18VtklbM85VJM1r9HwMWN6OWqVQYX66uXuhlIQyyuFP0O_oJc5pFv0-2IXYcjWrZQPXSwBH20h3T4Y=w484-h372-no?authuser=0",
             "title": "Throwback Aim",
-            "description": "A web recreation of AOL Instant Messenger.  Features draggable windows and the ability to create an account, login and send message. The application features a React Front-End with Ruby on Rails Back-End.",
+            "description": "A web recreation of AOL Instant Messenger.  Features draggable windows, the ability to create an account, login and send messages. The application features a React Front-End with Ruby on Rails Back-End.",
             "link": "https://github.com/kenneth-yu/throwback-aim-client"
         },
         {
