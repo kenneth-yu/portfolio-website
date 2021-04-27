@@ -2,8 +2,9 @@ import ReactFullpage from '@fullpage/react-fullpage';
 import Hero from '../components/hero';
 import AboutMe from '../components/aboutMe';
 import Experience from '../components/experience';
-import Wip from '../components/wip';
+import Projects from '../containers/projects';
 import Contact from '../components/contact'
+import Wip from '../components/wip';
 
 
 const anchors = ["", "about-me", "experience", "work-in-progress", "contact-me"];
@@ -30,7 +31,7 @@ const Fullpage = () => (
             <Experience/>
           </div>
           <div className="section">
-            <Wip/>
+            <Projects/>
           </div>
           <div className="section">
             <Contact/>

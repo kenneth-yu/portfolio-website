@@ -57,3 +57,12 @@ hr {
 	display:flex;
 	align-items:center;
 }
+
+.card{
+  color:black;
+}
+
+.githubButton{
+  margin-left:30%;
+  background-color: rgb(32, 32, 32) !important;
+}
