@@ -27,7 +27,7 @@
         {
             "image": "https://pbs.twimg.com/profile_images/928655749605199872/ygogGX2j.jpg",
             "title": "Arduino Clock Mod",
-            "description": "An educational project where I decided to add in a light sensor to control the dimmer setting on my digital clock automatically. Watch the demo video in the Github read me!",
+            "description": "An educational project where I decided to add in a light sensor to control the dimmer setting on my digital clock automatically. Watch the demo video in the Github readme for more information!",
             "link": "https://github.com/kenneth-yu/arduino-clock-mod"
         }
 
