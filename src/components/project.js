@@ -6,7 +6,7 @@ function Project(props) {
     window.open(url, '_blank');
   }
   return (
-    <Col>
+    <Col style={{marginLeft: props.isMobile ? 15 : 0}}>
       <Card style={{ maxWidth: '18rem', height: '37rem'}}>
         <Card.Img variant="top" style={{ height: 250}} src={props.projectData.image}/>
         <Card.Body>

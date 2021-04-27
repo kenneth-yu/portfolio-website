@@ -8,16 +8,17 @@ import Slider from "react-slick";
 function Projects() {
       var settings = {
         dots: true,
+        arrows: isMobile ? false : true,
         infinite: true,
         speed: 500,
         slidesToShow: isMobile ? 1 : 3,
         slidesToScroll: 1
       };
-    let parsedProjects = projectData.projects.map((oneProject, index) => <Project key={`project${index}`}projectData={oneProject}/>)
+    let parsedProjects = projectData.projects.map((oneProject, index) => <Project key={`project${index}`} isMobile={isMobile} projectData={oneProject}/>)
   return (
       <Container>
         <h1 className="headline-text">Projects</h1>
-        <Slider {...settings}>
+        <Slider style={{}} {...settings}>
             {parsedProjects}
         </Slider>
       </Container>

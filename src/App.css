@@ -66,3 +66,7 @@ hr {
   margin-left:30%;
   background-color: rgb(32, 32, 32) !important;
 }
+
+.slick-dots li button:before {
+  color: white !important;
+}
