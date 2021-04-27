@@ -17,7 +17,7 @@ function Projects() {
     let parsedProjects = projectData.projects.map((oneProject, index) => <Project key={`project${index}`} isMobile={isMobile} projectData={oneProject}/>)
   return (
       <Container>
-        <h1 className="headline-text">Projects</h1>
+        <h1 style={{paddingLeft: isMobile ? 0 : "0.75em", textAlign: isMobile ? "center" : null}} className="headline-text">Projects</h1>
         <Slider style={{}} {...settings}>
             {parsedProjects}
         </Slider>

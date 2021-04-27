@@ -70,3 +70,8 @@ hr {
 .slick-dots li button:before {
   color: white !important;
 }
+
+.cardCol{
+  display:flex;
+  justify-content: center;
+}
