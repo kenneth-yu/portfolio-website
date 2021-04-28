@@ -8,7 +8,7 @@ function Experience() {
         <Row style={{width: isMobileOnly ? "100%" : "75%"}}>
           <Col style={{alignItems: "center"}}>
             <h1 style={{paddingBottom: 25}} className="headline-text">Experience</h1>
-            <Tab.Container id="list-group-tabs-example" defaultActiveKey="#priceline">
+            <Tab.Container id="list-group-tabs-example" defaultActiveKey="#experience/priceline">
             <Row>
                 <Col sm={3} className="centercenter">
                 <ListGroup style={{paddingBottom: isMobileOnly ? 15 : 0, textAlign: "center"}} horizontal={isMobileOnly}>
