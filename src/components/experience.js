@@ -12,23 +12,23 @@ function Experience() {
             <Row>
                 <Col sm={3} className="centercenter">
                 <ListGroup style={{paddingBottom: isMobileOnly ? 15 : 0, textAlign: "center"}} horizontal={isMobileOnly}>
-                    <ListGroup.Item action href="#priceline">
+                    <ListGroup.Item action href="#experience/priceline">
                     {"Priceline"}
                     </ListGroup.Item>
-                    <ListGroup.Item action href="#mtb">
+                    <ListGroup.Item action href="#experience/mtb">
                     {isMobile ? "M&T" : "M&T Bank"}
                     </ListGroup.Item>
-                    <ListGroup.Item action href="#verifyed">
+                    <ListGroup.Item action href="#experience/verifyed">
                     {isMobile ? "Verifyed" : "Verifyed, Inc"}
                     </ListGroup.Item>
-                    <ListGroup.Item action href="#starline">
+                    <ListGroup.Item action href="#experience/starline">
                     {isMobile ? "Starline" : "Starline USA"}
                     </ListGroup.Item>
                 </ListGroup>
                 </Col>
                 <Col sm={9} >
                 <Tab.Content >
-                    <Tab.Pane eventKey="#priceline">
+                    <Tab.Pane eventKey="#experience/priceline">
                       <span>Software Engineer </span>
                       {isMobileOnly ? <br />: null}
                       <span className="subheadline-text">@ Priceline</span>
@@ -44,7 +44,7 @@ function Experience() {
                         <li>Mentoring associate engineers to further develop their technical and functional skills.</li>
                       </ul>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="#mtb">
+                    <Tab.Pane eventKey="#experience/mtb">
                       <span> Associate Software Engineer </span>
                       {isMobileOnly ? <br />: null}
                       <span className="subheadline-text">{"@ M&T Bank"}</span>
@@ -60,7 +60,7 @@ function Experience() {
                         <li>Created necessary documentation to prevent potential government regulation audits.</li>
                       </ul>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="#verifyed">
+                    <Tab.Pane eventKey="#experience/verifyed">
                       <span> Front-End Developer (Intern) </span>
                       {isMobileOnly ? <br />: null}
                       <span className="subheadline-text">{"@ Verifyed, Inc"}</span>
@@ -71,7 +71,7 @@ function Experience() {
                         <li>Consulted with quality assurance to make revisions in a timely manner.</li>
                       </ul>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="#starline">
+                    <Tab.Pane eventKey="#experience/starline">
                       <span> Systems Administration Intern </span>
                       {isMobileOnly ? <br />: null}
                       <span className="subheadline-text">{"@ Starline USA"}</span>

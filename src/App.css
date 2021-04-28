@@ -1,95 +1,109 @@
-a{
-	color:white;
+a {
+	color: white;
 }
-body, html{
-	color:white;
+
+body,
+html {
+	color: white;
 	background: #000000;
 	font-family: 'Source Sans Pro', sans-serif;
 }
-.headline-text{
-	font-size:3.2em;
-	background: linear-gradient(271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
+
+.headline-text {
+	font-size: 3.2em;
+	background: linear-gradient(271deg, #a0e9ff 30%, #a162e8 50%, #f093b0 70%, #edca85 94%);
 	-webkit-background-clip: text;
 	-moz-background-clip: text;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
 	-moz-text-fill-color: transparent;
 }
-.subheadline-text{
-	background: linear-gradient(271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
+
+.subheadline-text {
+	background: linear-gradient(271deg, #a0e9ff 30%, #a162e8 50%, #f093b0 70%, #edca85 94%);
 	-webkit-background-clip: text;
 	-moz-background-clip: text;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
 	-moz-text-fill-color: transparent;
 }
-span{
-	font-size:1.5em;
+
+span {
+	font-size: 1.5em;
 }
+
 .centercenter {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-p{
-	font-size:1.2em;
+
+p {
+	font-size: 1.2em;
 }
-#fp-nav ul li a span,.fp-slidesNav ul li a span {
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
 	background: white !important;
 }
+
 .active a.list-group-item {
 	background-color: black;
 }
+
 .list-group-item.active {
-	border-color:white;
+	border-color: white;
 }
-a.list-group-item{
+
+a.list-group-item {
 	background-color: rgb(32, 32, 32) !important;
-	color:white;
+	color: white;
 }
+
 hr {
 	margin-top: 1rem;
 	margin-bottom: 1rem;
 	border: 0;
 	border-top: 1px solid rgb(32, 32, 32)
 }
+
 .carousel-inner {
-	display:flex;
-	align-items:center;
+	display: flex;
+	align-items: center;
 }
 
-.card-img-top{
-  border-bottom: 1px solid white;
-  background-color: white;
+.card-img-top {
+	border-bottom: 1px solid white;
+	background-color: white;
 }
 
-.githubButton{
-  margin-left:30%;
-  background-color: black !important;
-  border-color: white;
+.githubButton {
+	margin-left: 30%;
+	background-color: black !important;
+	border-color: white;
 }
 
-.githubButton:hover{
-  border-color:white;
-  background-color:white !important;
-  color:black;
+.githubButton:hover {
+	border-color: white;
+	background-color: white !important;
+	color: black;
 }
 
 .slick-dots li button:before {
-  color: white !important;
+	color: white !important;
 }
 
-.cardCol{
-  display:flex;
-  justify-content: center;
+.cardCol {
+	display: flex;
+	justify-content: center;
 }
 
-.card{
-  background-color: black !important;
-  border: 1px solid white;
-  font-size:1em;
+.card {
+	background-color: black !important;
+	border: 1px solid white;
+	font-size: 1em;
 }
 
-.card-body{
-  background-color: rgb(32, 32, 32);
+.card-body {
+	background-color: rgb(32, 32, 32);
 }
