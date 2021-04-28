@@ -66,9 +66,10 @@
             ]
         },
         {
-            "jobTitle": "Front-End Engineer (Intern)",
+            "jobTitle": "Front-End Developer (Intern)",
             "company": "Verifyed, Inc",
             "mobileName": "Verifyed",
+            "linkTag": "verifyed",
             "jobDates": "May 2016 - Aug 2016",
             "description": [
                 "Communicated efficiently with graphic designers to create front facing web pages using JavaScript, HTML/CSS, and Bootstrap.",
@@ -80,6 +81,7 @@
             "jobTitle": "Systems Administration Intern",
             "company": "Starline USA",
             "mobileName": "Starline",
+            "linkTag": "starline",
             "jobDates": "Jan 2016 - May 2016",
             "description": [
                 "Seamlessly upgrade company systems to up to date operating systems and programs.",

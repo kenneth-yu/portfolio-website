@@ -1,6 +1,6 @@
 import Hero from '../components/hero';
 import AboutMe from '../components/aboutMe';
-import Experience from '../components/experience';
+import Experiences from '../containers/experiences';
 import Projects from '../containers/projects';
 import Contact from '../components/contact';
 
@@ -16,7 +16,7 @@ function Mobilepage() {
           </div>
           <hr />
           <div style={{paddingTop: 30, paddingBottom: 30}}>
-            <Experience/>
+            <Experiences/>
           </div>
           <hr />
           <div style={{paddingTop: 30, paddingBottom: 30}}>

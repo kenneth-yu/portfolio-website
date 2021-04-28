@@ -1,14 +1,14 @@
 import ReactFullpage from '@fullpage/react-fullpage';
 import Hero from '../components/hero';
 import AboutMe from '../components/aboutMe';
-import Experience from '../components/experience';
 import Projects from '../containers/projects';
+import Experiences from '../containers/experiences';
 import Contact from '../components/contact'
 import Wip from '../components/wip';
 
 
-const anchors = ["", "about-me", "experience", "projects", "contact-me"];
-const navAnchors = ["Introduction", "About Me", "Experience", "Projects", "Contact Me"];
+const anchors = ["", "about-me", "experience", "projects", "contact-me","testing"];
+const navAnchors = ["Introduction", "About Me", "Experience", "Projects", "Contact Me","testing"];
 
 const Fullpage = () => (
   <ReactFullpage
@@ -28,7 +28,7 @@ const Fullpage = () => (
             <AboutMe/>
           </div>
           <div className="section">
-            <Experience/>
+            <Experiences/>
           </div>
           <div className="section">
             <Projects/>
