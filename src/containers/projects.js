@@ -1,5 +1,5 @@
 import '../App.css';
-import {Container, Row, Col, Card, Button} from 'react-bootstrap';
+import {Container} from 'react-bootstrap';
 import Project from '../components/project'
 import projectData from '../projectData.json'
 import {isMobileOnly, isTablet} from 'react-device-detect';
