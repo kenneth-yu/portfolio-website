@@ -2,22 +2,32 @@ import '../App.css';
 import {Container, Row, Col, Card, Button} from 'react-bootstrap';
 import Project from '../components/project'
 import projectData from '../projectData.json'
-import {isMobile} from 'react-device-detect';
+import {isMobileOnly, isTablet} from 'react-device-detect';
 import Slider from "react-slick";
 
 function Projects() {
+    let slidesToShow
+    if(isMobileOnly){
+        slidesToShow = 1
+    }
+    else if(isTablet){
+        slidesToShow = 2
+    }
+    else{
+        slidesToShow = 3
+    }
       var settings = {
         dots: true,
-        arrows: isMobile ? false : true,
+        arrows: isMobileOnly ? false : true,
         infinite: true,
         speed: 500,
-        slidesToShow: isMobile ? 1 : 3,
+        slidesToShow: slidesToShow,
         slidesToScroll: 1
       };
-    let parsedProjects = projectData.projects.map((oneProject, index) => <Project key={`project${index}`} isMobile={isMobile} projectData={oneProject}/>)
+    let parsedProjects = projectData.projects.map((oneProject, index) => <Project key={`project${index}`} isMobile={isMobileOnly} projectData={oneProject}/>)
   return (
       <Container>
-        <h1 style={{paddingLeft: isMobile ? 0 : "0.75em", textAlign: isMobile ? "center" : null}} className="headline-text">Projects</h1>
+        <h1 style={{paddingLeft: isMobileOnly ? 0 : "0.75em", textAlign: isMobileOnly ? "center" : null}} className="headline-text">Projects</h1>
         <Slider style={{}} {...settings}>
             {parsedProjects}
         </Slider>

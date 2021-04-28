@@ -1,12 +1,12 @@
 import './App.css';
 import Fullpage from './containers/fullpage'
 import Mobilepage from './containers/mobilePage'
-import {isMobile} from 'react-device-detect';
+import {isMobileOnly} from 'react-device-detect';
  
 function App() {
   return (
     <div>
-      {isMobile ? <Mobilepage/> : <Fullpage/>}
+      {isMobileOnly ? <Mobilepage/> : <Fullpage/>}
     </div>
     
   );
