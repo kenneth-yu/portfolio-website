@@ -1,10 +1,17 @@
 import '../App.css';
 import {Col, Card, Button} from 'react-bootstrap';
+import ReactGA from 'react-ga';
+
 
 function Project(props) {
-  const clickHandler = (url) => {
-    window.open(url, '_blank');
+  const clickHandler = (projectData) => {
+    ReactGA.event({
+      category: "Github Click",
+      action: `User clicked on ${projectData.title}`,
+    });
+    window.open(projectData.link, '_blank');
   }
+
   return (
     <Col className="cardCol">
       <Card style={{ maxWidth: '18rem', height: '37rem'}}>
@@ -14,7 +21,7 @@ function Project(props) {
           <Card.Text>
             {props.projectData.description}
           </Card.Text>
-          <Button className="githubButton" style={{textAlign: "center"}} variant="primary" onClick={() => clickHandler(props.projectData.link)}>Github Link</Button>
+          <Button className="githubButton" style={{textAlign: "center"}} variant="primary" onClick={() => clickHandler(props.projectData)}>Github Link</Button>
         </Card.Body>
       </Card>
     </Col>
