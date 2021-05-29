@@ -6,10 +6,10 @@ import { createBrowserHistory } from 'history';
 import { Router } from 'react-router-dom';
 import ReactGA from 'react-ga';
 
-ReactGA.initialize(process.env.REACT_APP_GA_KEY, {debug: true});
+ReactGA.initialize(process.env.REACT_APP_GA_KEY);
 let landingUrl = isMobileOnly ? `/mobile${window.location.pathname === '/' ? '' : window.location.pathname}` : window.location.pathname
 ReactGA.pageview(landingUrl);
-ReactGA.set({page: landingUrl})
+ReactGA.set({page: landingUrl});
 const history = createBrowserHistory();
 
 history.listen(location => {
