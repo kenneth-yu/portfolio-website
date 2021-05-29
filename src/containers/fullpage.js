@@ -4,7 +4,7 @@ import AboutMe from '../components/aboutMe';
 import Projects from '../containers/projects';
 import Experiences from '../containers/experiences';
 import Contact from '../components/contact'
-import Wip from '../components/wip';
+// import Wip from '../components/wip';
 
 
 const anchors = ["", "about-me", "experience", "projects", "contact-me"];
