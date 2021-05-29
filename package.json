@@ -18,6 +18,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "react-slick": "^0.28.1",
+    "react-update-url-on-scroll": "^3.5.0",
     "slick": "^1.12.2",
     "web-vitals": "^1.1.1"
   },

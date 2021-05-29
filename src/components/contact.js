@@ -1,11 +1,12 @@
 import '../App.css';
 import {Container, Row, Col, Button} from 'react-bootstrap';
 import ReactGA from 'react-ga';
+import {isMobileOnly} from 'react-device-detect';
 
 let trackEmailClick = () =>{
   ReactGA.event({
-    category: "Contact Me",
-    action: "User tried to contact me",
+    category: `${isMobileOnly ? 'mobile_contact_me':'contact_me'}`,
+    action: `User tried to contact me${isMobileOnly ? ' via mobile' : ''}`,
   });
 }
 

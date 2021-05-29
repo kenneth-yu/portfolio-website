@@ -1,13 +1,14 @@
 import '../App.css';
 import {Col, Card, Button} from 'react-bootstrap';
 import ReactGA from 'react-ga';
+import {isMobileOnly} from 'react-device-detect';
 
 
 function Project(props) {
   const clickHandler = (projectData) => {
     ReactGA.event({
-      category: "Github Click",
-      action: `User clicked on ${projectData.title}`,
+      category: `${isMobileOnly ? 'mobile_github_click' : 'github_click'}`,
+      action: `User clicked on ${projectData.title}${isMobileOnly ? ' via mobile' : ''}`,
     });
     window.open(projectData.link, '_blank');
   }
