@@ -1,7 +1,7 @@
 {
     "projects":[
         {
-            "image": "https://discord.com/assets/f8389ca1a741a115313bede9ac02e2c0.svg",
+            "image": "https://i.pinimg.com/736x/34/ea/20/34ea20e0747020c021677987211a6353.jpg",
             "title": "Homie Bot",
             "description": "A custom discord bot engineered to improve the quality of life in my discord community. Ask me more about this project! I love using my engineering skills to solve real world problems.",
             "link": "https://github.com/kenneth-yu/discord-bot"
@@ -34,7 +34,7 @@
     ],
     "experience":[
         {
-            "jobTitle": "Software Engineer",
+            "jobTitle": "Senior Software Engineer",
             "company": "Priceline",
             "jobDates": "June 2019 - Present",
             "description": [
