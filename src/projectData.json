@@ -38,16 +38,14 @@
             "company": "Priceline",
             "jobDates": "June 2019 - Present",
             "description": [
-                "Effectively engineering and developing multiple projects concurrently in a deadline driven environment.",
-                "Designing and integrating applications with streamlined content management systems and A/B testing.",
+                "Effectively managing multiple projects concurrently in a deadline driven environment.",
                 "Architecting and revising middleware repositories for efficiency and futureproofing.",
                 "Leading projects from initial scope to production deployment through communication and planning.",
-                "Creating concise detailed documentation for straightforward knowledge transfers.",
-                "Maintaining and introducing features to white-label platforms that serve hundreds of Priceline partners.",
-                "Collaborating closely with business teams and fellow engineers to implement optimal solutions.",
-                "Swiftly mending production issues and preventing potential revenue loss.",
-                "Actively participating in continuous improvement initiatives to enhance company processes.",
-                "Mentoring associate engineers to further develop their technical and functional skills."
+                "Mentoring software engineers to further develop their technical and functional skills.",
+                "Contributing to Priceline's Monorepo to increase website consistency and maintainability.",
+                "Modernizing features to our in house white-label platform to better serve hundreds of Priceline partners.",
+                "Coordinating with other tech teams to prevent feature redundancy and encourage app/component reusability.",
+                "Actively participating in continuous improvement initiatives to enhance company processes."
             ]
         },
         {
