@@ -38,14 +38,12 @@
             "company": "Priceline",
             "jobDates": "June 2019 - Present",
             "description": [
-                "Effectively managing multiple projects concurrently in a deadline driven environment.",
-                "Architecting and revising middleware repositories for efficiency and futureproofing.",
-                "Leading projects from initial scope to production deployment through communication and planning.",
-                "Mentoring software engineers to further develop their technical and functional skills.",
-                "Contributing to Priceline's Monorepo to increase website consistency and maintainability.",
-                "Modernizing features to our in house white-label platform to better serve hundreds of Priceline partners.",
-                "Coordinating with other tech teams to prevent feature redundancy and encourage app/component reusability.",
-                "Actively participating in continuous improvement initiatives to enhance company processes."
+                "Leading and architecting high visibility projects concurrently in a deadline driven environment using React.js and TypeScript.",
+                "Increasing click through rates and conversion rates up to 100% for an inhouse white-label platform that serves hundreds of Priceline partners through a complete redesign and refactor.",
+                "Reducing project timelines by up to 50% by encouraging productive transparent communication between business and technology teams.",
+                "Investigating complex production issues and implementing rapid code changes to prevent potential revenue losses of up to $350,000 dollars a year.",
+                "Mentoring associate and mid-level engineers by identifying their strengths and weaknesses for strategic nurture and continuous improvement.",
+                "Producing clear and concise documentation to promote intuitive knowledge transfers leading to quickeronboarding."
             ]
         },
         {
