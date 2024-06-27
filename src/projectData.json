@@ -38,12 +38,13 @@
             "company": "Priceline",
             "jobDates": "June 2019 - Present",
             "description": [
-                "Leading and architecting high visibility projects concurrently in a deadline driven environment using React.js and TypeScript.",
-                "Increasing click through rates and conversion rates up to 100% for an inhouse white-label platform that serves hundreds of Priceline partners through a complete redesign and refactor.",
-                "Reducing project timelines by up to 50% by encouraging productive transparent communication between business and technology teams.",
-                "Investigating complex production issues and implementing rapid code changes to prevent potential revenue losses of up to $350,000 dollars a year.",
-                "Mentoring associate and mid-level engineers by identifying their strengths and weaknesses for strategic nurture and continuous improvement.",
-                "Producing clear and concise documentation to promote intuitive knowledge transfers leading to quickeronboarding."
+                "Led the development of redesigning Priceline’s inhouse white-label application by leveraging our internal monorepo components. This helped integrate pre-existing code for faster feature adoption and ensuring user experience parity with the rest of the website. The initiative led to increasing click through rates and conversion rates up to 100%.",
+                "Spearheaded the architecture and implementation for Priceline’s blog style application that utilizes Google’s Gemini Generative Ai. This project enabled the business to easily create a network of landing pages that took advantage of search engine optimizations for hundreds of destinations. This helped drive up to 25% more traffic to our search component.",
+                "Improved the frontend performance and error monitoring strategy for all online marketing applications. Collaborated with other engineers and product teams to understand the preexisting solution and help identify current pain points. This allowed the team to make better data-driven decisions around supporting and improving the overall health of the frontend experience.",
+                "Supported multiple business sub teams by investigating complex production issues and implementing rapid code changes to prevent potential revenue losses of up to $3,000,000 dollars a year. ",
+                "Mentored associate and mid-level engineers by identifying their strength and weaknesses for strategic nurture and continuous improvement initiatives.",
+                "Initiated and encouraged productive transparent communication between business and technology teams leading to a reduction of project timelines by up to 50%.",
+                "Encouraged engineers to produce clear and concise documentation to promote intuitive knowledge transfers leading to quicker project onboarding."
             ]
         },
         {
