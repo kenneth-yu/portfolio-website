@@ -30,9 +30,9 @@ const Fullpage = () => (
           <div className="section">
             <Experiences/>
           </div>
-          <div className="section">
+          {/* <div className="section">
             <Projects/>
-          </div>
+          </div> */}
           <div className="section">
             <Contact/>
           </div>

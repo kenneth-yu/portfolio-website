@@ -29,6 +29,7 @@ function AboutMe() {
                 <ul>
                     <li>JavaScript (ES6+)</li>
                     <li>Node.js</li>
+                    <li>Remix.js</li>
                     <li>Tealium</li>
                 </ul>
                 </Col>
@@ -36,7 +37,8 @@ function AboutMe() {
                     <ul>
                         <li>React/Redux</li>
                         <li>Express.js</li>
-                        <li>Iterable Services</li>
+                        <li>GraphQL</li>
+                        <li>Jest</li>
                     </ul>
                 </Col>
             </Row>

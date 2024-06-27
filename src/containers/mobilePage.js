@@ -19,9 +19,9 @@ function Mobilepage() {
             <Experiences/>
           </div>
           <hr />
-          <div style={{paddingTop: 30, paddingBottom: 30}}>
+          {/* <div style={{paddingTop: 30, paddingBottom: 30}}>
             <Projects/>
-          </div>
+          </div> */}
           <hr />
           <div style={{paddingTop: 60, paddingBottom: 60}}>
             <Contact/>
