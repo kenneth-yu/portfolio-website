@@ -19,6 +19,10 @@ Responsive layout, lazy-loaded images, and accessible navigation with scroll-to-
 - Tailwind CSS
 - Vitest
 
+## Requirements
+
+- Node.js 18+
+
 ## Getting Started
 
 ```bash
