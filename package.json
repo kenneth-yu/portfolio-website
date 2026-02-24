@@ -2,48 +2,32 @@
   "name": "portfolio-website",
   "version": "1.1.1",
   "private": true,
-  "dependencies": {
-    "@fullpage/react-fullpage": "0.1.19",
-    "@testing-library/jest-dom": "^5.12.0",
-    "@testing-library/react": "^11.2.6",
-    "@testing-library/user-event": "^12.8.3",
-    "bootstrap": "^4.6.0",
-    "carousel": "0.0.3",
-    "history": "^5.0.0",
-    "react": "^16",
-    "react-bootstrap": "^1.5.2",
-    "react-device-detect": "^1.17.0",
-    "react-dom": "^16.0.2",
-    "react-ga": "^3.3.0",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.3",
-    "react-slick": "^0.28.1",
-    "react-update-url-on-scroll": "^3.5.0",
-    "slick": "^1.12.2",
-    "web-vitals": "^1.1.1"
-  },
+  "type": "module",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run --no-file-parallelism",
+    "test:watch": "vitest"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.0.1",
+    "@types/node": "^22.10.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "jsdom": "^25.0.1",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15",
+    "typescript": "^5.6.3",
+    "vite": "^6.0.1",
+    "vite-imagetools": "^9.0.3",
+    "vitest": "^2.1.6"
   }
 }
