@@ -10,6 +10,7 @@
 
 # production
 /build
+/dist
 
 # React Router generated
 .react-router

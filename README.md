@@ -1,6 +1,6 @@
 # Kenneth Yu – Portfolio Website
 
-A personal portfolio site built with React, TypeScript, Vite, Tailwind CSS, and React Router 7 with SSR.
+A personal portfolio site built with React, TypeScript, Vite, Tailwind CSS, and React Router 7 (static site generation).
 
 ## Features
 
@@ -9,14 +9,14 @@ A personal portfolio site built with React, TypeScript, Vite, Tailwind CSS, and 
 - **Experience** – Expandable accordion (mobile) and tabs (desktop)
 - **Contact** – Email with copy-to-clipboard
 
-Responsive layout, lazy-loaded images, accessible navigation with scroll-to-section behavior, and **server-side rendering** for SEO.
+Responsive layout, lazy-loaded images, accessible navigation with scroll-to-section behavior, and **pre-rendered HTML** for SEO.
 
 ## Tech Stack
 
 - React 18
 - TypeScript
 - Vite
-- React Router 7 (framework mode with SSR)
+- React Router 7 (framework mode, static site generation)
 - Tailwind CSS
 - Vitest
 
@@ -38,17 +38,13 @@ Open [http://localhost:5173](http://localhost:5173).
 | Command | Description |
 |---------|-------------|
 | `npm run dev` | Start dev server |
-| `npm run build` | Production build (client + server) |
-| `npm run start` | Run production server |
+| `npm run build` | Production build (static) |
+| `npm run start` | Serve production build locally |
 | `npm run preview` | Preview production build (alias for start) |
 | `npm test` | Run tests |
 
 ## Deployment
 
-Build output is in `build/`:
-- `build/client/` – Static assets and prerendered HTML
-- `build/server/index.js` – Node.js server for SSR
+Build output is in `build/client/` – static HTML, assets, and prerendered content. No Node.js server required.
 
-For **SSR deployment**: Run `npm run start` on a Node.js server (e.g. DigitalOcean App Platform, Railway).
-
-For **static deployment**: The root route (`/`) is prerendered at build time. Deploy `build/client/` to Vercel, Netlify, or similar—no Node server required for the single-page portfolio.
+Deploy `build/client/` to any static host (Vercel, Netlify, GitHub Pages, Cloudflare Pages). Set the publish directory to `build/client`.
